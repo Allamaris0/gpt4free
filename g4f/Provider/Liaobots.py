@@ -225,7 +225,7 @@ class Liaobots(AsyncGeneratorProvider, ProviderModelMixin):
             except:
                 async with session.post(
                     "https://liaobots.work/api/user",
-                    json={"authcode": "pTIQr4FTnVRfr"},
+                    json={"authcode": "xxxxxxxxxx"},
                     verify_ssl=False
                 ) as response:
                     await raise_for_status(response)
